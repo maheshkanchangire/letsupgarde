@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  
+
+  <h1>my name is mahesh kanchangire </h1>
+
+  <h3>day 2 assignment  </h3>
+  <button onclick="window.print()">Print this page</button>
+
+  <h2>question 1 and second answer</h2>
+
+
+<script>
+
+
+
+var todaysdate = new Date();
+
+var dd = todaysdate.getDate();
+
+var mm = todaysdate.getMonth()+1; 
+var yyyy = todaysdate.getFullYear();
+var hh = todaysdate.getHours();
+var min =todaysdate.getMinutes();
+var ss = todaysdate.getSeconds();
+var day =todaysdate.getDay();
+if(day==1)
+   {  day="monday"}
+  
+   if(day==2)
+    {day="tuesday"}
+    if(day==3)
+    {day="wednesday"}
+    if(day==4)
+    {day="thirsday"}
+    if(day==5)
+    {day="friday"}
+    if(day==6)
+    { day="saturday"}  
+    if(day==7)
+    {day="sunday"}
+     
+
+
+
+
+document.write("day is "+day+"\n");
+document.write("\n\n\t time is"+hh+":"+min+":"+ss)
+
+
+
+
+document.write(mm+"-"+dd+"-"+yyyy)
+document.write(mm+"/"+dd+"/"+yyyy)
+document.write(dd+"/"+mm+"/"+yyyy)
+document.write(dd+"-"+mm+"-"+yyyy)
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
